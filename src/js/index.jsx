@@ -13,7 +13,7 @@ class Square extends React.Component {
 
 class Board extends React.Component {
   renderSquare(i) {
-    return <Square dis={'X'}/>;
+    return <Square dis={i}/>;
   }
 
   render() {
